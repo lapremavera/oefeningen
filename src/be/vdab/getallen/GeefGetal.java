@@ -1,5 +1,6 @@
 package be.vdab.getallen;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class GeefGetal {
@@ -9,9 +10,13 @@ public class GeefGetal {
         Scanner getal = new Scanner(System.in);
 
         System.out.println("Geef getal op: ");
-        int ingevoerdGetal =  getal.nextInt();
-        System.out.println("Gekozen getal is "+ ingevoerdGetal);
-        System.out.println();
+        try {
 
+            int ingevoerdGetal = getal.nextInt();
+            System.out.println("Gekozen getal is " + ingevoerdGetal);
+
+        } catch (InputMismatchException e) {
+            System.out.println("Er is een foute invoer!");
+        }
     }
 }
