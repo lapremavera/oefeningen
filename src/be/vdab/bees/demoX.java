@@ -1,6 +1,6 @@
 package be.vdab.bees;
 
-public class demoX {
+/* public class demoX {
 
     public static final String DEFAULT_NAME = new String ("John Doe");
     public static final String DEFAULT_NAME = "John Doe";
@@ -23,3 +23,4 @@ public class demoX {
 
     }
 }
+*/

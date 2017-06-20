@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class HelloYou {
     public static void main (String [] args){
+
         System.out.print ("Typ uw naam in:");
         Scanner naam = new Scanner (System.in);
         String ingevoerdeNaam = naam.nextLine();

@@ -3,7 +3,7 @@ package be.vdab.shapes;
 public class Circle extends Shape {
     private double radius;
 
-    public Circle() {
+    protected Circle() {
         this(1.0);
     }
 
