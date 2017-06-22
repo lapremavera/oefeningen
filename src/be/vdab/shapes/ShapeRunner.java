@@ -1,6 +1,7 @@
 package be.vdab.shapes;
 
-public class ShapeRunner {
+public class
+ShapeRunner {
     public static void main(String[] args) {
         Rectangle r = new Rectangle(5, 7);
 
