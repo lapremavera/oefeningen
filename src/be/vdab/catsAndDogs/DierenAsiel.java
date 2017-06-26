@@ -25,6 +25,8 @@ public class DierenAsiel {
         catNameAndLife.add(new Cat("Felix", 8));
 
 
+
+
         /*catNameAndLife.set(3,new Cat ("replacement", 8));
         System.out.println(catNameAndLife.get(1));
         */
