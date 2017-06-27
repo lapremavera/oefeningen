@@ -1,4 +1,4 @@
-package be.vdab.EnumOefn;
+package be.vdab.enumOefn;
 
 public enum Seasons {
     Spring,
