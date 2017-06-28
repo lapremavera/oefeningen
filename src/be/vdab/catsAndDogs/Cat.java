@@ -1,6 +1,6 @@
 package be.vdab.catsAndDogs;
 
-public class Cat {
+public class Cat{
 
     private String name = "Garfield";
     private int life = 9;
