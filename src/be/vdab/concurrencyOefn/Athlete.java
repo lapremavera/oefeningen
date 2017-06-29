@@ -3,20 +3,26 @@ package be.vdab.concurrencyOefn;
 public class Athlete extends Thread {
 
     private String name;
+    private Object signal;
 
-    public Athlete(String name){
+    public Athlete(String name,Object signal){
+        linger();
         this.name = name;
+        this.signal= signal;
 
     }
 
     public void run() {
+        //om iedereen op hetzelfde signaal te laten starten
+        synchronized (signal){
+
+        }
         double tijdGelopen = 0;
         while (tijdGelopen <= 100){
             tijdGelopen += step();
             System.out.println(name + " heeft de "+ tijdGelopen +" meters");
             linger();
         }
-        System.exit(0);
     }
 
     private void linger(){
